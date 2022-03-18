@@ -62,7 +62,7 @@ $(function() {
       },
       success: function(result) {
         var id = result.data.id;
-        window.location = 'https://imgur.com/gallery/' + id;
+        console.log("Output: " + result.data);
       }
     });
   }
